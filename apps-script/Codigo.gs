@@ -1,6 +1,6 @@
 
 function importarCurriculos() {
-  const ID_PASTA = "obterIdPastaBancoTalentos_()";
+  const ID_PASTA = "1MEHmJPAIoYfdmEa0fNl27krZjhU67jfz";
   const NOME_ABA = "Página1";
   const NOME_ETIQUETA = "CURRICULO_PROCESSADO_V2";
 
@@ -297,7 +297,7 @@ function testarConexaoGemini() {
 
 function testarLeituraCurriculo() {
 
-  const ID_PASTA = "obterIdPastaBancoTalentos_()";
+  const ID_PASTA = "1MEHmJPAIoYfdmEa0fNl27krZjhU67jfz";
 
   const CHAVE = PropertiesService
     .getScriptProperties()
@@ -716,7 +716,7 @@ Não escreva explicações fora do JSON.
 
 function processarCurriculosAvulsos() {
 
-  const ID_PASTA = "obterIdPastaBancoTalentos_()";
+  const ID_PASTA = "1MEHmJPAIoYfdmEa0fNl27krZjhU67jfz";
   const NOME_ABA = "Página1";
   const LIMITE_POR_EXECUCAO = 5;
 
@@ -879,19 +879,4 @@ function processarCurriculosAvulsos() {
     Math.max(0, fila.length - processados - erros)
   );
   Logger.log("==============================");
-}
-
-// CONFIGURAÇÃO SEGURA: ID DA PASTA NO SCRIPT PROPERTIES
-function obterIdPastaBancoTalentos_() {
-  const id = PropertiesService
-    .getScriptProperties()
-    .getProperty("ID_PASTA_BANCO_TALENTOS");
-
-  if (!id) {
-    throw new Error(
-      "Configure ID_PASTA_BANCO_TALENTOS nas Propriedades do script."
-    );
-  }
-
-  return id;
 }
