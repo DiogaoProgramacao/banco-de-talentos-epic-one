@@ -1,13 +1,12 @@
-# Banco de Talentos — EPIC ONE
+# Banco de Talentos  EPIC ONE
 
 Automação interna para importar, organizar e classificar currículos usando Google Apps Script, Gmail, Google Drive, Google Sheets e uma API de IA autorizada.
 
 ## Status
 
 - [x] Repositório privado criado
-- [ ] Código atual do Apps Script versionado
-- [ ] Migração do mecanismo de IA para OpenAI
-- [ ] Testes integrados com currículos de teste
+- [x] Código atual do Apps Script versionado
+- [x] Testes integrados com currículos de teste
 - [ ] Rotina operacional documentada
 
 ## Fluxo previsto
