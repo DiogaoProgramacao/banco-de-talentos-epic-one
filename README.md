@@ -36,7 +36,7 @@ Automação interna para importar, organizar e classificar currículos usando Go
 
 ## Estrutura
 
-- `apps-script/`: código-fonte do Google Apps Script (a ser sincronizado com o projeto existente).
+- `apps-script/`: código-fonte do Google Apps Script
 - `docs/`: arquitetura, configuração e procedimentos operacionais.
 
 ## Desenvolvimento
