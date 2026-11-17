@@ -29,7 +29,6 @@ Automação interna para importar, organizar e classificar currículos usando Go
 
 ## Privacidade e segurança
 
-- Este repositório deve permanecer **privado**.
 - Não versionar currículos, dados pessoais de candidatos, planilhas reais, IDs internos, tokens ou chaves de API.
 - Armazenar segredos em **Apps Script > Configurações do projeto > Propriedades do script**.
 - Usar somente dados de teste anonimizados durante desenvolvimento.
